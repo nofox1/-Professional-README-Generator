@@ -19,9 +19,9 @@
   
 
   ## Installation 🔋
+  With the installation of inquirer you will need to fork and clone the repo for yourself and then once that is done processed to the terminal and enter the command "node index.js" and then you will be greeted by a list of questions.
 
-
-  inquirer
+ 
 
   ## Usage 
 
