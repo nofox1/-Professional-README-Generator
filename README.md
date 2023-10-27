@@ -27,8 +27,6 @@
 
   ![image](https://github.com/nofox1/Professional-README-Generator/assets/136627240/83b19e44-bc07-4a4d-a8c1-2dbc6f3f97fa)
 
-  With the installation of inquirer you will need to fork and clone the repo for yourself and then once that is done processed to the terminal and enter the command "node index.js" and then you will be greeted by a list of questions.
-
   
   
     ## License 📛
