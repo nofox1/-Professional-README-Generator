@@ -51,13 +51,6 @@ const questions = [
 
   {
     type: "input",
-    name: "test",
-    message: "What command should be run to run tests?",
-    default: "npm test",
-  },
-
-  {
-    type: "input",
     name: "usage",
     message: "What is the proper usage of this repo?",
   },
@@ -69,10 +62,20 @@ const questions = [
   },
 ];
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((inquirerAnswers) => {
+    console.log("Generating....Please wait....");
+    writeToFile(
+      "./utils/sampleREADME.md",
+      generateMarkdown({ ...inquirerAnswers })
+    );
+  });
+}
 
 // Function call to initialize app
 init();
