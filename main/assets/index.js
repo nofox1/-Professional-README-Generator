@@ -48,6 +48,12 @@ const questions = [
     message: "Any dependencies to install?",
     default: "npm i",
   },
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "What kind of tests do you need to preform to make sure that is working correctly. ",
+  },
 
   {
     type: "input",

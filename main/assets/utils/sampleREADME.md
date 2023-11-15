@@ -1,9 +1,9 @@
-# Tester
-  (![License](https://img.shields.io/badge/license-MIT-blue.svg))
+# Test
+  (![License](https://img.shields.io/badge/license-APACHE2.0-blue.svg))
 
   ## Description 🧾
 
-  This is just a test
+  This is a test run!
 
   ## Table of Contents 📚
 
@@ -21,22 +21,22 @@
   ## Installation 🔋
 
 
-  inquirer
+  inquirer 
 
   ## Usage 
   
-  Testing
+  questions
 
 
   
     ## License 📛
-    Copyright @ MIT. All rights reserved.
+    Copyright @ APACHE2.0. All rights reserved.
     
-    Licensed under the MIT license
+    Licensed under the APACHE2.0 license
 
   ## Credits
 
-  Tester
-  Tester
-  email
+  Nolan 
+  Nolan 
+  example@gmail.com
 
