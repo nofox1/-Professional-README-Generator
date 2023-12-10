@@ -30,10 +30,7 @@
   
   
      License 📛
-    Copyright @ MIT. All rights reserved.
-    
-    Licensed under the MIT license
-
+ 
   ## Credits
 
   Nolan
